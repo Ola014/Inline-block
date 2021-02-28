@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-figure {
+div {
     width: 60%;
     height: 500px;
 }
@@ -13,23 +13,22 @@ p{
     display: inline-block;
     padding-top: 55px;
 }
-#O1 {
+#Box-1 , #Orange, #Green, #Box-2 {
+    text-align: center;
+}
+#Box-1 {
 background-color: orange;
-text-align: center;
 color: white;
 }
-#O2{
+#Orange{
     background-color: white;
-    text-align: center;
     color: orange;
 }
-#G3{
+#Green{
     background-color: white;
-    text-align: center;
     color: green;
 }
-#G4{
+#Box-2{
     background-color: green;
-    text-align: center;
     color: white;
 }
